@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/bg_guess1"
+    android:id="@+id/reLay">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/linearListen"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:id="@+id/tableLayout">
+
+        <!-- row 1 -->
+        <TableRow
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical"
+            android:id="@+id/TRowAB"
+            android:layout_width="200dp"
+            android:layout_height="30dp">
+
+            <!-- Picture 1 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/chicken"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <!-- Picture 2 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/w_alphabet"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <!-- Picture 3 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/lion"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <!-- Picture 4 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/dog"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+        </TableRow>
+
+        <!-- row 2 -->
+        <TableRow
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical"
+            android:id="@+id/TRowAB"
+            android:layout_width="200dp"
+            android:layout_height="30dp">
+
+            <!-- Picture 1 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/a_alphabet1"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <!-- Picture 2 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/num_1"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <!-- Picture 3 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/pig"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <!-- Picture 4 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/circle1"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+        </TableRow>
+
+        <!-- row 3 -->
+        <TableRow
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical"
+            android:id="@+id/TRowAB"
+            android:layout_width="200dp"
+            android:layout_height="30dp">
+
+            <!-- Picture 1 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/ensign_china"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <!-- Picture 2 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/hoamai"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <!-- Picture 3 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/o_alphabet"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <!-- Picture 4 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/duck"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+        </TableRow>
+
+        <!-- row 4 -->
+        <TableRow
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical"
+            android:id="@+id/TRowAB"
+            android:layout_width="200dp"
+            android:layout_height="30dp">
+
+            <!-- Picture 1 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/rose"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <!-- Picture 2 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/num_6"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <!-- Picture 3 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/square"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <!-- Picture 4 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/hoaloaken"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+        </TableRow>
+
+        <!-- row 5 -->
+        <TableRow
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical"
+            android:id="@+id/TRowAB"
+            android:layout_width="200dp"
+            android:layout_height="30dp">
+
+            <!-- Picture 1 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/hinhtamgiac"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <!-- Picture 2 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/ensign_america"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <!-- Picture 3 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/b_alphabet"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <!-- Picture 4 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/bird1"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+        </TableRow>
+
+        <!-- row 6 -->
+        <TableRow
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical"
+            android:id="@+id/TRowAB"
+            android:layout_width="200dp"
+            android:layout_height="30dp">
+
+            <!-- Picture 1 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/hoalan"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <!-- Picture 2 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/cat"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <!-- Picture 3 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/ensign_geremy"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <!-- Picture 4 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/linearHA">
+
+                <ImageView
+                    android:id="@+id/textViewA"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_width="50dp"
+                    android:background="@drawable/tulip"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+D:\THESIS\Tools\Project\HelloWorld\app\build\intermediates\classes\debug
+D:\THESIS\Tools\Project\HelloWorld\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-e81e0d2f4c1c42ef038d5a0e320a973a5b3ef2b6.jar
+D:\THESIS\Tools\Project\HelloWorld\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-d6e46c8e08c712b933d37ea91dad0ee50acde490.jar
+D:\THESIS\Tools\Project\HelloWorld\app\build\intermediates\pre-dexed\debug\classes-5bcbcf8bf37bf16f058e496c5182a834a6c73951.jar
+D:\THESIS\Tools\Project\HelloWorld\app\build\intermediates\pre-dexed\debug\classes-f7ec1f6c080a1034217747c883937d94c1840432.jar
