@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/home_bg">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/home_volume"
+        android:layout_gravity="right" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_title"
+        android:layout_gravity="center"/>
+
+    <!-- menu -->
+    <!-- start -->
+    <LinearLayout
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:background="@drawable/home_bg_menu"
+        android:id="@+id/layout_start"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:background="@drawable/home_start"/>
+
+    </LinearLayout>
+    <!-- look n choose -->
+    <LinearLayout
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="130dp"
+        android:background="@drawable/home_bg_menu"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="127dp"
+            android:layout_height="37dp"
+            android:background="@drawable/home_look"/>
+
+    </LinearLayout>
+
+    <!-- listen n choose -->
+    <LinearLayout
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="130dp"
+        android:background="@drawable/home_bg_menu"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="127dp"
+            android:layout_height="37dp"
+            android:background="@drawable/home_listen"/>
+
+    </LinearLayout>
+
+    <!-- look n choose -->
+    <LinearLayout
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="130dp"
+        android:background="@drawable/home_bg_menu"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="127dp"
+            android:layout_height="37dp"
+            android:background="@drawable/home_guess"/>
+
+    </LinearLayout>
+    <!-- end menu-->
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="right">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/home_ensign_lang"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+</LinearLayout>
