@@ -2,8 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1"
-    android:background="@drawable/home_bg">
+    android:weightSum="1">
 
     <ImageView
         android:layout_width="40dp"
@@ -33,6 +32,7 @@
             android:background="@drawable/home_start"/>
 
     </LinearLayout>
+
     <!-- look n choose -->
     <LinearLayout
         android:layout_height="40dp"
@@ -90,5 +90,7 @@
             android:layout_height="80dp"
             android:background="@drawable/home_ensign_lang"
             android:layout_gravity="right"/>
-    </LinearLayout>
+
+
+   </LinearLayout>
 </LinearLayout>

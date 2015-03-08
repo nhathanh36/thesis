@@ -22,6 +22,7 @@
         </activity>
         <activity android:name="com.english_for_kid.thanhnha.englishforkid.activity.Home" >
         </activity>
+        <activity android:name="com.english_for_kid.thanhnha.englishforkid.activity.Learning" />
     </application>
 
 </manifest>
