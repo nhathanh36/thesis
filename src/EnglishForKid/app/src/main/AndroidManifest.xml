@@ -19,6 +19,10 @@
         <activity android:name=".activity.Home">
 
         </activity>
+
+        <activity android:name=".activity.Learning"></activity>
+
+
     </application>
 
 </manifest>
