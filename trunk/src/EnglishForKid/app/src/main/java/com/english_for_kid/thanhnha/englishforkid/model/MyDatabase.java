@@ -157,6 +157,7 @@ public class MyDatabase {
         }
         question.setCorrectAnswer(vocabulariesNoDuplicate.get(0).getName());
         question.setImage(vocabulariesNoDuplicate.get(0).getImage());
+
         question.setAnswerB(vocabulariesNoDuplicate.get(1).getName());
         question.setAnswerC(vocabulariesNoDuplicate.get(2).getName());
         question.setAnswerD(vocabulariesNoDuplicate.get(3).getName());

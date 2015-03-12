@@ -30,17 +30,11 @@ public class LookChoose extends Activity {
     private ImageView imageViewQuestion = null;
     private List<TextView> textViews = new ArrayList<TextView>();
     private static TextView tv = null;
-    private static int i = 1;
+    private static int currentQuestion = 1;
+    private static int correctAnswer = 0;
+    TextView txtsum = null;
 
-    private int id[] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
-    private String name[] = {"Lion", "Pig", "Tiger", "Chicken", "Dog", "Cat",
-                             "Rose", "Apricot", "Orchid", "Lily", "Sunflower", "Cherry blossom",
-                             "Apple", "Orange", "Banana", "Grape", "Mango", "Pineapple",
-                             "Lemon", "Cherry"};
-    private int src[] = {R.drawable.lion,R.drawable.pig, R.drawable.tiger, R.drawable.chicken,R.drawable.dog, R.drawable.cat,
-                         R.drawable.rose,R.drawable.apricot,R.drawable.orchid, R.drawable.lily, R.drawable.sunflower, R.drawable.cherry_blossom,
-                         R.drawable.apple,R.drawable.orange,R.drawable.banana,R.drawable.grape,R.drawable.mango,R.drawable.pineapple,R.drawable.lemon,R.drawable.cherry};
-    private int group[] = {1,1,1,1,1,1,2,2,2,2,2,2,3,3,3,3,3,3,3,3};
+
     public LookChoose() {
     }
 
@@ -50,11 +44,6 @@ public class LookChoose extends Activity {
         setContentView(R.layout.look_choose_activity);
 
         db.open();
-        db.deleteAllVocabulary();
-        for (int i = 0; i < Constant.NUMVOCABULARY; i++) {
-            Vocabulary vb = new Vocabulary(id[i], name[i], src[i], group[i]);
-            db.createVocabulary(vb);
-        }
         vocabulariesRandom = db.getRandomVocabularies();
         vocabularies = db.getAllVocabulary();
 
@@ -63,15 +52,21 @@ public class LookChoose extends Activity {
         //question = db.getQuestion();
         db.close();
 
+        txtsum = (TextView) findViewById(R.id.tongso);
+        String mgs = "Câu hỏi " + currentQuestion + "/" + Constant.NUMQUESTION;
+        txtsum.setText(mgs);
+
         LoadQuestion(listquestion.get(0));
-        //LoadQuestion(question);
 
             textViews.get(0).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    if (i < listquestion.size()) {
-                        LoadQuestion(listquestion.get(i));
-                        i++;
+                    if (currentQuestion < listquestion.size()) {
+                        LoadQuestion(listquestion.get(currentQuestion));
+                        currentQuestion++;
+                        String mgs = "Câu hỏi " + currentQuestion + "/" + Constant.NUMQUESTION;
+                        txtsum.setText(mgs);
+                        ShowWin();
                     }
                 }
             });
@@ -79,9 +74,12 @@ public class LookChoose extends Activity {
         textViews.get(1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (i < listquestion.size()) {
-                    LoadQuestion(listquestion.get(i));
-                    i++;
+                if (currentQuestion < listquestion.size()) {
+                    LoadQuestion(listquestion.get(currentQuestion));
+                    currentQuestion++;
+                    String mgs = "Câu hỏi " + currentQuestion + "/" + Constant.NUMQUESTION;
+                    txtsum.setText(mgs);
+                    ShowWin();
                 }
             }
         });
@@ -89,19 +87,40 @@ public class LookChoose extends Activity {
         textViews.get(2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (i < listquestion.size()) {
-                    LoadQuestion(listquestion.get(i));
-                    i++;
+                if (currentQuestion < listquestion.size()) {
+                    LoadQuestion(listquestion.get(currentQuestion));
+                    currentQuestion++;
+                    String mgs = "Câu hỏi " + currentQuestion + "/" + Constant.NUMQUESTION;
+                    txtsum.setText(mgs);
+                    ShowWin();
+
                 }
             }
         });
 
-        if (i == Constant.NUMQUESTION)
-        {
-            Toast toast = Toast.makeText(LookChoose.this, "10", Toast.LENGTH_SHORT);
+
+    }
+
+    private void Click(int pos, TextView txtsum) {
+        textViews.get(pos).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (currentQuestion < listquestion.size()) {
+                    LoadQuestion(listquestion.get(currentQuestion));
+                    currentQuestion++;
+                    String mgs = "Câu hỏi " + currentQuestion + "/" + Constant.NUMQUESTION;
+                    ShowWin();
+                }
+            }
+        });
+    }
+
+    private void ShowWin()
+    {
+        if (currentQuestion == Constant.NUMQUESTION) {
+            Toast toast = Toast.makeText(LookChoose.this, "Tổng số câu đúng" + String.valueOf(correctAnswer), Toast.LENGTH_SHORT);
             toast.show();
         }
-
     }
 
     @Override
@@ -125,14 +144,28 @@ public class LookChoose extends Activity {
         int pos = random.nextInt(textViews.size());
         tv = textViews.get(random.nextInt(textViews.size()));
         tv.setText(question.getCorrectAnswer());
+
+        txtsum = (TextView) findViewById(R.id.tongso);
+        tv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (currentQuestion < listquestion.size()) {
+                    LoadQuestion(listquestion.get(currentQuestion));
+                    currentQuestion++;
+                    String mgs = "Câu hỏi " + currentQuestion + "/" + Constant.NUMQUESTION;
+                    txtsum.setText(mgs);
+                    ShowWin();
+                }
+                correctAnswer++;
+            }
+        });
         textViews.remove(tv);
 
 
         ImageView imageQuestion = (ImageView) findViewById(R.id.imageQuestion);
-        imageQuestion = null;
         imageQuestion.setImageResource(question.getImage());
 
-        String[] answers_wrong ={ question.getAnswerB(), question.getAnswerC(), question.getAnswerD() };
+        String[] answers_wrong = {question.getAnswerB(), question.getAnswerC(), question.getAnswerD()};
         int arrayPos = 0;
         for (int i = 0; i < textViews.size(); i++) {
             //if (i != pos) {

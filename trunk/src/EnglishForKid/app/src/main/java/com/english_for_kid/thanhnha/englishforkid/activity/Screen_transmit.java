@@ -6,12 +6,26 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.english_for_kid.thanhnha.englishforkid.Constant;
 import com.english_for_kid.thanhnha.englishforkid.R;
+import com.english_for_kid.thanhnha.englishforkid.model.*;
+import com.english_for_kid.thanhnha.englishforkid.model.MyDatabase;
 
 
 public class Screen_transmit extends ActionBarActivity {
-
+    private MyDatabase db = new MyDatabase(this);
+    //////////////////////////////
+    private int id[] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+    private String name[] = {"Lion", "Pig", "Tiger", "Chicken", "Dog", "Cat",
+            "Rose", "Apricot", "Orchid", "Lily", "Sunflower", "Cherry blossom",
+            "Apple", "Orange", "Banana", "Grape", "Mango", "Pineapple",
+            "Lemon", "Cherry"};
+    private int src[] = {R.drawable.lion,R.drawable.pig, R.drawable.tiger, R.drawable.chicken,R.drawable.dog, R.drawable.cat,
+            R.drawable.rose,R.drawable.apricot,R.drawable.orchid, R.drawable.lily, R.drawable.sunflower, R.drawable.cherry_blossom,
+            R.drawable.apple,R.drawable.orange,R.drawable.banana,R.drawable.grape,R.drawable.mango,R.drawable.pineapple,R.drawable.lemon,R.drawable.cherry};
+    private int group[] = {1,1,1,1,1,1,2,2,2,2,2,2,3,3,3,3,3,3,3,3};
     @Override
+    ////////////////////////////////////
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.transmit_activity);
@@ -20,7 +34,14 @@ public class Screen_transmit extends ActionBarActivity {
         Thread bamgio = new Thread(){
             public void run() {
                 try {
-                    sleep(5000);
+                    db.open();
+                    db.deleteAllVocabulary();
+                    for (int i = 0; i < Constant.NUMVOCABULARY; i++) {
+                        Vocabulary vb = new Vocabulary(id[i], name[i], src[i], group[i]);
+                        db.createVocabulary(vb);
+                    }
+                    db.close();
+                    sleep(2000);
                 } catch (Exception e) { }
                 finally
                 { Intent intent = new Intent(Screen_transmit.this, Home.class);
