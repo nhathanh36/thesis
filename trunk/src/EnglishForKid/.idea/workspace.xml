@@ -42,7 +42,7 @@
       <file leaf-file-name="Utility.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/Utility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="640">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
               <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
@@ -52,31 +52,49 @@
       <file leaf-file-name="MyDatabase.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/model/MyDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2341" max-vertical-offset="4820">
-              <caret line="156" column="38" selection-start-line="156" selection-start-column="38" selection-end-line="156" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1640" max-vertical-offset="5480">
+              <caret line="142" column="55" selection-start-line="142" selection-start-column="55" selection-end-line="142" selection-end-column="55" />
               <folding>
-                <element signature="e#3845#3857#0" expanded="true" />
-                <element signature="e#4673#4685#0" expanded="true" />
-                <element signature="e#5573#5585#0" expanded="true" />
-                <element signature="e#5653#5665#0" expanded="true" />
-                <element signature="e#5830#5842#0" expanded="true" />
-                <element signature="e#5911#5923#0" expanded="true" />
-                <element signature="e#7923#7935#0" expanded="true" />
+                <element signature="e#3624#3636#0" expanded="true" />
+                <element signature="e#4452#4464#0" expanded="true" />
+                <element signature="e#5352#5364#0" expanded="true" />
+                <element signature="e#5432#5444#0" expanded="true" />
+                <element signature="e#5612#5624#0" expanded="true" />
+                <element signature="e#5693#5705#0" expanded="true" />
+                <element signature="e#6801#6816#0" expanded="true" />
+                <element signature="e#8819#8831#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Learning.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/activity/Learning.java">
+      <file leaf-file-name="LookChoose.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/activity/LookChoose.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2" vertical-offset="1354" max-vertical-offset="7960">
-              <caret line="89" column="60" selection-start-line="89" selection-start-column="60" selection-end-line="89" selection-end-column="60" />
+            <state vertical-scroll-proportion="-0.27413127" vertical-offset="1162" max-vertical-offset="8580">
+              <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1536#1548#0" expanded="true" />
-                <element signature="e#1710#1720#0" expanded="true" />
+                <element signature="e#882#894#0" expanded="true" />
+                <element signature="e#958#973#0" expanded="true" />
+                <element signature="e#1135#1145#0" expanded="true" />
+                <element signature="e#2913#3206#0" expanded="true" />
+                <element signature="e#3191#3192#0" expanded="true" />
+                <element signature="e#3254#3515#0" expanded="true" />
+                <element signature="e#3504#3505#0" expanded="true" />
+                <element signature="e#3563#3824#0" expanded="true" />
+                <element signature="e#3813#3814#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constant.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/Constant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,7 +102,7 @@
       <file leaf-file-name="Question_Look.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/model/Question_Look.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1100">
+            <state vertical-scroll-proportion="0.0" vertical-offset="541" max-vertical-offset="1100">
               <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
               <folding />
             </state>
@@ -94,8 +112,8 @@
       <file leaf-file-name="Vocabulary.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/model/Vocabulary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1340">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -104,28 +122,41 @@
       <file leaf-file-name="VocabularyAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/adapter/VocabularyAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="820" max-vertical-offset="1000">
-              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="321" max-vertical-offset="700">
+              <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="learning_activity.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/learning_activity.xml">
+      <file leaf-file-name="look_choose_activity.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/look_choose_activity.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="1960">
-              <caret line="66" column="46" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2060">
+              <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popup_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/popup_layout.xml">
+      <file leaf-file-name="home_activity.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/home_activity.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="480">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="34" />
+            <state vertical-scroll-proportion="-10.111111" vertical-offset="727" max-vertical-offset="2200">
+              <caret line="50" column="40" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/activity/Home.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="580">
+              <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -702,8 +733,6 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/model/model.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/model/Group_VB.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/home_activity.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/activity/Home.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/activity/MyDatabase.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/activity/Pop_up.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/adapter/VocabularyAdapter.java" />
@@ -711,9 +740,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/Utility.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/model/Vocabulary.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/model/Question_Look.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/learning_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/Constant.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/model/MyDatabase.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/activity/Learning.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/learning_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/home_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/activity/Home.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/activity/LookChoose.java" />
       </list>
     </option>
   </component>
@@ -955,9 +988,13 @@
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="3f1f785c" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_21_x86" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\THESIS\Tools\MyProject\trunk\src\EnglishForKid\app\src\main\res\drawable" />
+      <recent name="D:\THESIS\Tools\MyProject\trunk\src\EnglishForKid\app\src\main\res\drawable-mdpi" />
       <recent name="D:\THESIS\Tools\Project\EnglishForKid\app\src\main\res\drawable-mdpi" />
       <recent name="D:\THESIS\Tools\Project\EnglishForKid\app\src\main\res\drawable" />
     </key>
@@ -965,7 +1002,7 @@
   <component name="RunManager" selected="Android Application.app">
     <configuration default="false" name="Learning" type="AndroidRunConfigurationType" factoryName="Android Application" temporary="true">
       <module name="app" />
-      <option name="ACTIVITY_CLASS" value="com.english_for_kid.thanhnha.englishforkid.activity.Learning" />
+      <option name="ACTIVITY_CLASS" value="com.english_for_kid.thanhnha.englishforkid.activity.LookChoose" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -1182,7 +1219,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1194,14 +1231,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.52420574" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3253833" sideWeight="0.47579426" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3253833" sideWeight="0.47579426" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4020443" sideWeight="0.5325265" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44122657" sideWeight="0.4667171" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22087745" sideWeight="0.4985755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22390318" sideWeight="0.4985755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4020443" sideWeight="0.5612708" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1211,8 +1250,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1237,35 +1274,26 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/model/MyDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1902" max-vertical-offset="2448">
-          <caret line="137" column="1" selection-start-line="5" selection-start-column="0" selection-end-line="137" selection-end-column="1" />
-          <folding>
-            <element signature="e#3845#3857#0" expanded="true" />
-            <element signature="e#4673#4685#0" expanded="true" />
-            <element signature="e#5573#5585#0" expanded="true" />
-            <element signature="e#5653#5665#0" expanded="true" />
-            <element signature="e#5830#5842#0" expanded="true" />
-            <element signature="e#5911#5923#0" expanded="true" />
-            <element signature="e#7923#7935#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/activity/Learning.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/activity/LookChoose.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="391">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1536#1548#0" expanded="true" />
-            <element signature="e#1710#1720#0" expanded="true" />
+            <element signature="e#882#894#0" expanded="true" />
+            <element signature="e#958#973#0" expanded="true" />
+            <element signature="e#1135#1145#0" expanded="true" />
+            <element signature="e#2913#3206#0" expanded="true" />
+            <element signature="e#3191#3192#0" expanded="true" />
+            <element signature="e#3254#3515#0" expanded="true" />
+            <element signature="e#3504#3505#0" expanded="true" />
+            <element signature="e#3563#3824#0" expanded="true" />
+            <element signature="e#3813#3814#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/learning_activity.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/look_choose_activity.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
           <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
@@ -1322,19 +1350,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/activity/Learning.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/activity/LookChoose.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="391">
           <caret line="14" column="49" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1536#1548#0" expanded="true" />
-            <element signature="e#1710#1720#0" expanded="true" />
+            <element signature="e#882#894#0" expanded="true" />
+            <element signature="e#958#973#0" expanded="true" />
+            <element signature="e#1135#1145#0" expanded="true" />
+            <element signature="e#2913#3206#0" expanded="true" />
+            <element signature="e#3191#3192#0" expanded="true" />
+            <element signature="e#3254#3515#0" expanded="true" />
+            <element signature="e#3504#3505#0" expanded="true" />
+            <element signature="e#3563#3824#0" expanded="true" />
+            <element signature="e#3813#3814#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/learning_activity.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/look_choose_activity.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
           <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
@@ -1463,16 +1498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/home_activity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1185" max-vertical-offset="1717">
-          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-21/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.02862254" vertical-offset="64227" max-vertical-offset="101830">
@@ -1497,13 +1522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1003">
           <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/activity/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1532,14 +1550,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/Utility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="476">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_transmit.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1553,14 +1563,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/home_volume.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/adapter/VocabularyAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="850">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/lion.png">
@@ -1585,10 +1587,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/learning_activity.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/Utility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="1960">
-          <caret line="66" column="46" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="476">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/model/Vocabulary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/model/MyDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1640" max-vertical-offset="5480">
+          <caret line="142" column="55" selection-start-line="142" selection-start-column="55" selection-end-line="142" selection-end-column="55" />
+          <folding>
+            <element signature="e#3624#3636#0" expanded="true" />
+            <element signature="e#4452#4464#0" expanded="true" />
+            <element signature="e#5352#5364#0" expanded="true" />
+            <element signature="e#5432#5444#0" expanded="true" />
+            <element signature="e#5612#5624#0" expanded="true" />
+            <element signature="e#5693#5705#0" expanded="true" />
+            <element signature="e#6801#6816#0" expanded="true" />
+            <element signature="e#8819#8831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/adapter/VocabularyAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="321" max-vertical-offset="700">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/home_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.111111" vertical-offset="727" max-vertical-offset="2200">
+          <caret line="50" column="40" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1596,12 +1647,23 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/model/Vocabulary.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/activity/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="867">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="580">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/look_choose_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2060">
+          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/model/Question_Look.java">
@@ -1612,30 +1674,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/model/MyDatabase.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/activity/LookChoose.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2341" max-vertical-offset="4820">
-          <caret line="156" column="38" selection-start-line="156" selection-start-column="38" selection-end-line="156" selection-end-column="38" />
-          <folding>
-            <element signature="e#3845#3857#0" expanded="true" />
-            <element signature="e#4673#4685#0" expanded="true" />
-            <element signature="e#5573#5585#0" expanded="true" />
-            <element signature="e#5653#5665#0" expanded="true" />
-            <element signature="e#5830#5842#0" expanded="true" />
-            <element signature="e#5911#5923#0" expanded="true" />
-            <element signature="e#7923#7935#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/english_for_kid/thanhnha/englishforkid/activity/Learning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2" vertical-offset="1354" max-vertical-offset="7960">
-          <caret line="89" column="60" selection-start-line="89" selection-start-column="60" selection-end-line="89" selection-end-column="60" />
+        <state vertical-scroll-proportion="-0.27413127" vertical-offset="1162" max-vertical-offset="8580">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1536#1548#0" expanded="true" />
-            <element signature="e#1710#1720#0" expanded="true" />
+            <element signature="e#882#894#0" expanded="true" />
+            <element signature="e#958#973#0" expanded="true" />
+            <element signature="e#1135#1145#0" expanded="true" />
+            <element signature="e#2913#3206#0" expanded="true" />
+            <element signature="e#3191#3192#0" expanded="true" />
+            <element signature="e#3254#3515#0" expanded="true" />
+            <element signature="e#3504#3505#0" expanded="true" />
+            <element signature="e#3563#3824#0" expanded="true" />
+            <element signature="e#3813#3814#0" expanded="true" />
           </folding>
         </state>
       </provider>
