@@ -10,7 +10,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/icon_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity android:name="com.english_for_kid.thanhnha.englishforkid.activity.Screen_transmit" >
@@ -22,7 +22,8 @@
         </activity>
         <activity android:name="com.english_for_kid.thanhnha.englishforkid.activity.Home" >
         </activity>
-        <activity android:name="com.english_for_kid.thanhnha.englishforkid.activity.Learning" />
+        <activity android:name="com.english_for_kid.thanhnha.englishforkid.activity.LookChoose" />
+        <activity android:name="com.english_for_kid.thanhnha.englishforkid.activity.ChooseGame" />
     </application>
 
 </manifest>

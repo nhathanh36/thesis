@@ -7,17 +7,29 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:id="@+id/linearListen"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/tongso"
+            android:layout_width="150dp"
+            android:layout_marginTop="20dp"
+            android:text="Câu hỏi 1/10"
+            android:textSize="10pt"
+            android:gravity="center"
+            android:layout_height="45dp"
+            android:textColor="@android:color/white"
+            android:onClick="onClickChoose"/>
+        <!-- Answer D -->
 
         <!-- Image Question -->
         <ImageView
             android:layout_width="150dp"
             android:layout_height="124dp"
             android:id="@+id/imageQuestion"
-            android:layout_marginTop="100dp"/>
+            android:layout_marginTop="30dp"/>
     </LinearLayout>
 
     <TableLayout
@@ -26,12 +38,12 @@
         android:layout_below="@+id/linearListen"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="40dp"
         android:orientation="vertical"
         android:id="@+id/tableLayout">
 
         <TableRow
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="20dp"
             android:orientation="vertical"
             android:id="@+id/TRowAB"
             android:layout_width="wrap_content"
@@ -46,25 +58,29 @@
                   <TextView
                      android:layout_width="110dp"
                      android:layout_height="45dp"
+                     android:textSize="9pt"
+                     android:gravity="center"
                      android:background="@drawable/bg_orange"
                      android:id="@+id/textViewA"
                      android:textColor="@android:color/white"
                      android:onClick="onClickChoose"/>
                <!-- Answer B -->
                   <TextView
-                     android:background="@drawable/bg_orange"
-                     android:layout_marginLeft="100dp"
-                     android:layout_width="110dp"
-                     android:layout_height="45dp"
-                     android:id="@+id/textViewB"
-                     android:textColor="@android:color/white"
+                      android:background="@drawable/bg_orange"
+                      android:layout_marginLeft="50dp"
+                      android:layout_width="110dp"
+                      android:gravity="center"
+                      android:layout_height="45dp"
+                      android:textSize="9pt"
+                      android:id="@+id/textViewB"
+                      android:textColor="@android:color/white"
                       android:onClick="onClickChoose"/>
             </LinearLayout>
         </TableRow>
 
         <TableRow
             android:id="@+id/TRowCD"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -77,21 +93,33 @@
                 <!-- Answer C -->
                 <TextView
                     android:id="@+id/textViewC"
+                    android:textSize="9pt"
                     android:background="@drawable/bg_orange"
                     android:layout_width="110dp"
                     android:layout_height="45dp"
+                    android:gravity="center"
                     android:textColor="@android:color/white"
                     android:onClick="onClickChoose"/>
                 <!-- Answer D -->
                 <TextView
-                    android:layout_marginLeft="100dp"
+                    android:layout_marginLeft="50dp"
                     android:layout_width="110dp"
+                    android:textSize="9pt"
                     android:layout_height="45dp"
                     android:background="@drawable/bg_orange"
                     android:id="@+id/textViewD"
+                    android:gravity="center"
                     android:textColor="@android:color/white"
                     android:onClick="onClickChoose"/>
             </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                />
+
+            <ImageView
+                />
         </TableRow>
     </TableLayout>
 </RelativeLayout>

@@ -13,18 +13,18 @@ import com.english_for_kid.thanhnha.englishforkid.model.MyDatabase;
  */
 public class Home extends Activity {
     private MyDatabase db = new MyDatabase(this);
-    private View look_n_choose;
+    private View trochoi;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home_activity);
 
-        look_n_choose = (View) findViewById(R.id.lookNChoose);
+        trochoi = (View) findViewById(R.id.trochoi);
 
-        look_n_choose.setOnClickListener(new View.OnClickListener() {
+        trochoi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this, LookChoose.class);
+                Intent intent = new Intent(Home.this, ChooseGame.class);
                 startActivity(intent);
             }
         });
