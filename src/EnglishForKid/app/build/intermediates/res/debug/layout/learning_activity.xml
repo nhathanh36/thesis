@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bglearning"
     android:id="@+id/reLay">
     <!-- Icon Listen -->
     <LinearLayout
@@ -43,19 +44,21 @@
                android:layout_height="wrap_content">
                   <!-- Answer A -->
                   <TextView
-                     android:layout_width="90dp"
-                     android:layout_height="30dp"
+                     android:layout_width="110dp"
+                     android:layout_height="50dp"
                      android:background="@drawable/bg_orange"
                      android:id="@+id/textViewA"
-                     android:textColor="@android:color/white"/>
+                     android:textColor="@android:color/white"
+                     android:onClick="onClickChoose"/>
                <!-- Answer B -->
                   <TextView
                      android:background="@drawable/bg_orange"
-                     android:layout_marginLeft="120dp"
-                     android:layout_width="90dp"
-                     android:layout_height="30dp"
+                     android:layout_marginLeft="100dp"
+                     android:layout_width="110dp"
+                     android:layout_height="50dp"
                      android:id="@+id/textViewB"
-                     android:textColor="@android:color/white"/>
+                     android:textColor="@android:color/white"
+                      android:onClick="onClickChoose"/>
             </LinearLayout>
         </TableRow>
 
@@ -75,17 +78,19 @@
                 <TextView
                     android:id="@+id/textViewC"
                     android:background="@drawable/bg_orange"
-                    android:layout_width="90dp"
-                    android:layout_height="30dp"
-                    android:textColor="@android:color/white"/>
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:textColor="@android:color/white"
+                    android:onClick="onClickChoose"/>
                 <!-- Answer D -->
                 <TextView
-                    android:layout_marginLeft="120dp"
-                    android:layout_width="90dp"
-                    android:layout_height="30dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
                     android:background="@drawable/bg_orange"
                     android:id="@+id/textViewD"
-                    android:textColor="@android:color/white"/>
+                    android:textColor="@android:color/white"
+                    android:onClick="onClickChoose"/>
             </LinearLayout>
         </TableRow>
     </TableLayout>

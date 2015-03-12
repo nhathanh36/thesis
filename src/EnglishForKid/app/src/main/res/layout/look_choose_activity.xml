@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bglearning"
+    android:id="@+id/reLay">
+    <!-- Icon Listen -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearListen"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <!-- Image Question -->
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="124dp"
+            android:id="@+id/imageQuestion"
+            android:layout_marginTop="100dp"/>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/linearListen"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:id="@+id/tableLayout">
+
+        <TableRow
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical"
+            android:id="@+id/TRowAB"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+               android:id="@+id/linearVA"
+               android:orientation="horizontal"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+                  <!-- Answer A -->
+                  <TextView
+                     android:layout_width="110dp"
+                     android:layout_height="45dp"
+                     android:background="@drawable/bg_orange"
+                     android:id="@+id/textViewA"
+                     android:textColor="@android:color/white"
+                     android:onClick="onClickChoose"/>
+               <!-- Answer B -->
+                  <TextView
+                     android:background="@drawable/bg_orange"
+                     android:layout_marginLeft="100dp"
+                     android:layout_width="110dp"
+                     android:layout_height="45dp"
+                     android:id="@+id/textViewB"
+                     android:textColor="@android:color/white"
+                      android:onClick="onClickChoose"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TRowCD"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linearVC"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <!-- Answer C -->
+                <TextView
+                    android:id="@+id/textViewC"
+                    android:background="@drawable/bg_orange"
+                    android:layout_width="110dp"
+                    android:layout_height="45dp"
+                    android:textColor="@android:color/white"
+                    android:onClick="onClickChoose"/>
+                <!-- Answer D -->
+                <TextView
+                    android:layout_marginLeft="100dp"
+                    android:layout_width="110dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/bg_orange"
+                    android:id="@+id/textViewD"
+                    android:textColor="@android:color/white"
+                    android:onClick="onClickChoose"/>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

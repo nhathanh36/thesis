@@ -20,7 +20,7 @@
 
         </activity>
 
-        <activity android:name=".activity.Learning"></activity>
+        <activity android:name=".activity.LookChoose"></activity>
 
 
     </application>
