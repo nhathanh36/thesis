@@ -14,7 +14,7 @@ import java.util.HashSet;
 import java.util.List;
 
 public class MyDatabase {
-    private static final String DATABASE_NAME = "DB5";
+    private static final String DATABASE_NAME = "DB7";
     private static final int DATABASE_VERSION = 1;
 
     /**
@@ -27,28 +27,29 @@ public class MyDatabase {
     private static final String IMAGE_VB = "IMAGE_VB";
     private static final String GROUP_VB = "GROUP_VB";
 
-    private static final String CREATE_TABLE_VOCALBULARY = "CREATE TABLE " + VOCABULARY_TABLE + " ("
-                                                            + ID_VB + " INTEGER PRIMARY KEY, "
-                                                            + NAME_VB + " VARCHAR NOT NULL UNIQUE, "
-                                                            + IMAGE_VB + " INTEGER NOT NULL, "
-                                                            + GROUP_VB + " INTEGER NOT NULL);";
-
-
-    /*public String createTable() {
-        return CREATE_TABLE_VOCALBULARY;
-    }
     /**
      * Table Group:
-     * Attribute: ID, Name
+     * Attribute: ID, Name, Image
      */
-   /* private static final String GROUP_TABLE = "GROUP";
-    private static final String ID_GROUP = "ID";
-    private static final String NAME_GROUP = "NAME";
+    private static final String GROUP_TABLE = "GROUP_TABLE";
+    private static final String ID_GROUP = "ID_GROUP";
+    private static final String NAME_GROUP = "NAME_GROUP";
+    private static final String IMAGE_GROUP = "IMAGE_GROUP";
+
+    private static final String CREATE_TABLE_VOCABULARY = "CREATE TABLE " + VOCABULARY_TABLE + " ("
+            + ID_VB + " INTEGER PRIMARY KEY, "
+            + NAME_VB + " VARCHAR NOT NULL UNIQUE, "
+            + IMAGE_VB + " INTEGER NOT NULL, "
+            + GROUP_VB + " INTEGER NOT NULL);";
 
     private static final String CREATE_TABLE_GROUP = "CREATE TABLE " + GROUP_TABLE + " ("
-                                                      + ID_GROUP + " INTEGER PRIMARY KEY AUTOINCREMENT, "
-                                                      + NAME_GROUP + " VARCHAR NOT NULL);";*/
+            + ID_GROUP + " INTEGER PRIMARY KEY, "
+            + NAME_GROUP + " VARCHAR NOT NULL UNIQUE, "
+            + IMAGE_GROUP + " INTEGER NOT NULL);";
 
+    public String a() {
+        return CREATE_TABLE_GROUP;
+    }
     private static Context context;
     static SQLiteDatabase db;
     private OpenHelper openHelper;
@@ -65,23 +66,21 @@ public class MyDatabase {
 
     public void close(){
         openHelper.close();
+        
     }
 
-    /*public void createVocabulary(Vocabulary vocabulary) {
-        ContentValues contentValues = new ContentValues();
-
-        contentValues.put(ID_VB, vocabulary.getId());
-        contentValues.put(NAME_VB, vocabulary.getName());
-        contentValues.put(IMAGE_VB, Utility.getBytes(vocabulary.getImage()));
-        contentValues.put(GROUP_VB, vocabulary.getGroup());
-
-        //db.insert(VOCABULARY_TABLE, null, contentValues);
-    }*/
-
     public String createVocabulary(Vocabulary vocabulary) {
-        String a = "INSERT OR IGNORE INTO VOCABULARY(ID_VB, NAME_VB, IMAGE_VB, GROUP_VB) VALUES (" + vocabulary.getId()
-                                + ", '" + vocabulary.getName() + "', " + vocabulary.getImage() + ", "
-                                + vocabulary.getGroup() + ")";
+        String a = "INSERT OR IGNORE INTO VOCABULARY(ID_VB, NAME_VB, IMAGE_VB, GROUP_VB, SOUND) VALUES (" + vocabulary.getId()
+                + ", '" + vocabulary.getName() + "', " + vocabulary.getImage() + ", "
+                + vocabulary.getGroup() + ")";
+
+        db.execSQL(a);
+        return a;
+    }
+
+    public String createGroup(Group_VB group) {
+        String a = "INSERT OR IGNORE INTO GROUP_TABLE (ID_GROUP, NAME_GROUP, IMAGE_GROUP) VALUES (" + group.getId_group()
+                + ", '" + group.getName_group() + "', " + group.getImage_group() + ")";
 
         db.execSQL(a);
         return a;
@@ -92,8 +91,18 @@ public class MyDatabase {
         db.delete(VOCABULARY_TABLE, ID_VB + "=?", new String[] {id});
     }
 
+    public void deleteGroup(Group_VB group) {
+        String id = String.valueOf(group.getId_group());
+        db.delete(GROUP_TABLE, ID_GROUP + "=?", new String[] {id});
+    }
+
     public void deleteAllVocabulary() {
         String a = "DELETE FROM " + VOCABULARY_TABLE;
+        db.execSQL(a);
+    }
+
+    public void deleteAllGroup() {
+        String a = "DELETE FROM " + GROUP_TABLE;
         db.execSQL(a);
     }
 
@@ -109,6 +118,7 @@ public class MyDatabase {
                 vocabulary.setGroup(cursor.getInt(cursor.getColumnIndex(GROUP_VB)));
                 vocabularies.add(vocabulary);
             } while (cursor.moveToNext());
+            cursor.close();
         }
         cursor.close();
         return vocabularies;
@@ -126,6 +136,7 @@ public class MyDatabase {
                 vocabulary.setGroup(cursor.getInt(cursor.getColumnIndex(GROUP_VB)));
                 vocabularies.add(vocabulary);
             } while (cursor.moveToNext());
+            cursor.close();
         }
         cursor.close();
         return vocabularies;
@@ -166,7 +177,6 @@ public class MyDatabase {
 
     public List<Question_Look> listQuestion(int maxQuestion)
     {
-        boolean flag = false;
         Question_Look question = new Question_Look();
         List<Question_Look> listQNoDuplicate = new ArrayList<Question_Look>();
         question = getQuestion();
@@ -174,6 +184,7 @@ public class MyDatabase {
 
         while (listQNoDuplicate.size() < maxQuestion)
         {
+            boolean flag = false;
             Question_Look temp = getQuestion();
             for(int i = 0; i < listQNoDuplicate.size(); i++)
             {
@@ -194,7 +205,7 @@ public class MyDatabase {
         String[] columns = new String[] {ID_VB, NAME_VB, IMAGE_VB, GROUP_VB};
 
         Cursor cur = db.query(VOCABULARY_TABLE, columns, NAME_VB + "=?",
-        new String[]{name}, null, null, null);
+                new String[]{name}, null, null, null);
 
         if (cur.moveToFirst()) {
             int id = cur.getInt(cur.getColumnIndex(ID_VB));
@@ -202,6 +213,34 @@ public class MyDatabase {
             int group = cur.getInt(cur.getColumnIndex(GROUP_VB));
             cur.close();
             return new Vocabulary(id, name, image, group);
+        }
+        cur.close();
+        return null;
+    }
+
+    public List<Vocabulary> getVocabulariesInGroup(int group) {
+        List<Vocabulary> vocabularies = new ArrayList<Vocabulary>();
+        List<Vocabulary> vocabulariesInAGroup = new ArrayList<Vocabulary>();
+        vocabularies = getAllVocabulary();
+        for (int i = 0; i < vocabularies.size(); i++) {
+            if(vocabularies.get(i).getGroup() == group) {
+                vocabulariesInAGroup.add(vocabularies.get(i));
+            }
+        }
+        return vocabulariesInAGroup;
+    }
+
+    public Group_VB getGroupByName(String name) {
+        String[] columns = new String[] {ID_GROUP, IMAGE_GROUP, NAME_GROUP};
+
+        Cursor cur = db.query(GROUP_TABLE, columns, NAME_GROUP + "=?",
+                new String[]{name}, null, null, null);
+
+        if (cur.moveToFirst()) {
+            int id = cur.getInt(cur.getColumnIndex(ID_GROUP));
+            int image = cur.getInt(cur.getColumnIndex(IMAGE_GROUP));
+            cur.close();
+            return new Group_VB(id, image, name);
         }
         cur.close();
         return null;
@@ -241,45 +280,52 @@ public class MyDatabase {
                 vocabulary.setGroup(cursor.getInt(cursor.getColumnIndex(GROUP_VB)));
                 vocabularies.add(vocabulary);
             } while (cursor.moveToNext());
+            cursor.close();
         }
         cursor.close();
         return vocabularies;
     }
 
-    public String getAllVocabulary1() {
-        String query = "SELECT * FROM " + VOCABULARY_TABLE + " LIMIT 5";
-        String temp = "";
+    public List<Group_VB> getAllGroup() {
+        List<Group_VB> groups = new ArrayList<Group_VB>();
+
+        String query = "SELECT * FROM " + GROUP_TABLE;
+
         Cursor cursor = db.rawQuery(query, null);
 
         if (cursor.moveToFirst()) {
             do {
-
-                temp += cursor.getInt(cursor.getColumnIndex(ID_VB)) + "-"
-                     + cursor.getString(cursor.getColumnIndex(NAME_VB)) + "-"
-                     + cursor.getInt(cursor.getColumnIndex(IMAGE_VB)) + "-"
-                     + cursor.getInt(cursor.getColumnIndex(GROUP_VB)) + "END";
+                Group_VB group = new Group_VB();
+                group.setId_group(cursor.getInt(cursor.getColumnIndex(ID_GROUP)));
+                group.setImage_group(cursor.getInt(cursor.getColumnIndex(IMAGE_GROUP)));
+                group.setName_group(cursor.getString(cursor.getColumnIndex(NAME_GROUP)));
+                groups.add(group);
             } while (cursor.moveToNext());
+            cursor.close();
         }
         cursor.close();
-        return temp;
+        return groups;
     }
 
-/**
- * class OpenHelper
- */
-private static class OpenHelper extends SQLiteOpenHelper {
-    public OpenHelper(Context context) {
-        super(context, DATABASE_NAME, null, DATABASE_VERSION);
-    }
+    /**
+     * class OpenHelper
+     */
+    private static class OpenHelper extends SQLiteOpenHelper {
+        public OpenHelper(Context context) {
+            super(context, DATABASE_NAME, null, DATABASE_VERSION);
+        }
 
-    @Override
-    public void onCreate(SQLiteDatabase arg0) {
-        arg0.execSQL(CREATE_TABLE_VOCALBULARY);
-    }
+        @Override
+        public void onCreate(SQLiteDatabase arg0) {
+            arg0.execSQL(CREATE_TABLE_VOCABULARY);
+            arg0.execSQL(CREATE_TABLE_GROUP);
+        }
 
-    @Override
-    public void onUpgrade(SQLiteDatabase arg0, int arg1, int arg2) {
-        arg0.execSQL("DROP TABLE IF EXISTS " + VOCABULARY_TABLE);
+        @Override
+        public void onUpgrade(SQLiteDatabase arg0, int arg1, int arg2) {
+            arg0.execSQL("DROP TABLE IF EXISTS " + VOCABULARY_TABLE);
+            arg0.execSQL("DROP TABLE IF EXISTS " + GROUP_TABLE);
+            onCreate(arg0);
+        }
     }
-}
 }

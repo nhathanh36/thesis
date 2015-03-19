@@ -1,5 +1,5 @@
-D:\THESIS\Tools\MyProject\trunk\src\EnglishForKid\app\build\intermediates\classes\debug
-D:\THESIS\Tools\MyProject\trunk\src\EnglishForKid\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-e81e0d2f4c1c42ef038d5a0e320a973a5b3ef2b6.jar
-D:\THESIS\Tools\MyProject\trunk\src\EnglishForKid\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-4b6cb068fab36dfa188332fbc765dccd5f9d1e85.jar
-D:\THESIS\Tools\MyProject\trunk\src\EnglishForKid\app\build\intermediates\pre-dexed\debug\classes-448cb2b1bc872c6eb42a767a8a8985676eaef0eb.jar
-D:\THESIS\Tools\MyProject\trunk\src\EnglishForKid\app\build\intermediates\pre-dexed\debug\classes-7ee447ae3bfff50b2aaf2fba6bb9e6ae370e91e3.jar
+D:\THESIS\Tools\NewProject\trunk\src\EnglishForKid\app\build\intermediates\classes\debug
+D:\THESIS\Tools\NewProject\trunk\src\EnglishForKid\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-e81e0d2f4c1c42ef038d5a0e320a973a5b3ef2b6.jar
+D:\THESIS\Tools\NewProject\trunk\src\EnglishForKid\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-64f0351bd6d9267f7dca777ca2bbaef0827e306a.jar
+D:\THESIS\Tools\NewProject\trunk\src\EnglishForKid\app\build\intermediates\pre-dexed\debug\classes-dcad1d0c6bdfeacb0a3f40e7e939f2dc4b3cb7c0.jar
+D:\THESIS\Tools\NewProject\trunk\src\EnglishForKid\app\build\intermediates\pre-dexed\debug\classes-e9c1be464c92824948a2bc2e8fe40f37ed961f1f.jar

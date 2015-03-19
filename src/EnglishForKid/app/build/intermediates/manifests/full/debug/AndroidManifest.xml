@@ -22,8 +22,16 @@
         </activity>
         <activity android:name="com.english_for_kid.thanhnha.englishforkid.activity.Home" >
         </activity>
-        <activity android:name="com.english_for_kid.thanhnha.englishforkid.activity.LookChoose" />
+        <activity android:name="com.english_for_kid.thanhnha.englishforkid.activity.LookNChoose" />
         <activity android:name="com.english_for_kid.thanhnha.englishforkid.activity.ChooseGame" />
+        <activity android:name="com.english_for_kid.thanhnha.englishforkid.activity.Animal" />
+        <activity android:name="com.english_for_kid.thanhnha.englishforkid.activity.ListGroup" />
+        <activity android:name="com.english_for_kid.thanhnha.englishforkid.activity.Flower" />
+        <activity android:name="com.english_for_kid.thanhnha.englishforkid.activity.Fruit" />
+        <activity android:name="com.english_for_kid.thanhnha.englishforkid.activity.Alphabet" />
+        <activity android:name="com.english_for_kid.thanhnha.englishforkid.activity.Means" />
+        <activity android:name="com.english_for_kid.thanhnha.englishforkid.activity.Christmas" />
+        <activity android:name="com.english_for_kid.thanhnha.englishforkid.activity.Sport" />
     </application>
 
 </manifest>

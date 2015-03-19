@@ -6,13 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.english_for_kid.thanhnha.englishforkid.R;
-import com.english_for_kid.thanhnha.englishforkid.model.MyDatabase;
 
 /**
  * Created by Thanh Nha on 2/9/2015.
  */
 public class Home extends Activity {
-    private MyDatabase db = new MyDatabase(this);
     private View trochoi;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

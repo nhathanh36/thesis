@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/icon_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        android:icon="@drawable/icon_launcher">
         <activity
             android:name=".activity.Screen_transmit">
             <intent-filter>
@@ -20,9 +20,16 @@
 
         </activity>
 
-        <activity android:name=".activity.LookChoose"></activity>
+        <activity android:name=".activity.LookNChoose"></activity>
         <activity android:name=".activity.ChooseGame"></activity>
-
+        <activity android:name=".activity.Animal"></activity>
+        <activity android:name=".activity.ListGroup"></activity>
+        <activity android:name=".activity.Flower"></activity>
+        <activity android:name=".activity.Fruit"></activity>
+        <activity android:name=".activity.Alphabet"></activity>
+        <activity android:name=".activity.Means"></activity>
+        <activity android:name=".activity.Christmas"></activity>
+        <activity android:name=".activity.Sport"></activity>
 
     </application>
 

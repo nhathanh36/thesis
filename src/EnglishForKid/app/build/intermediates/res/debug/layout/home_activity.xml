@@ -3,7 +3,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1"
-    android:background="@drawable/background_main">
+    android:background="@drawable/bg_menu">
 
     <ImageView
         android:layout_width="40dp"
@@ -24,7 +24,6 @@
         android:layout_height="40dp"
         android:layout_marginTop="20dp"
         android:layout_width="140dp"
-        android:background="@drawable/home_bg_menu"
         android:id="@+id/layout_start"
         android:layout_gravity="center_horizontal">
 
@@ -32,7 +31,9 @@
             android:layout_width="150dp"
             android:layout_height="35dp"
             android:text="HỌC TỪ MỚI"
-            android:textColor="@android:color/holo_blue_dark"
+            android:id="@+id/learning"
+            android:background="@drawable/light_blue"
+            android:textColor="@android:color/white"
             android:textSize="8pt"
             android:gravity="center"
             />
@@ -45,14 +46,14 @@
         android:layout_height="40dp"
         android:layout_marginTop="20dp"
         android:layout_width="140dp"
-        android:background="@drawable/home_bg_menu"
         android:layout_gravity="center_horizontal">
 
         <TextView
             android:layout_width="150dp"
             android:layout_height="35dp"
+            android:background="@drawable/light_blue"
+            android:textColor="@android:color/white"
             android:text="TRÒ CHƠI"
-            android:textColor="@android:color/holo_blue_dark"
             android:textSize="8pt"
             android:id="@+id/trochoi"
             android:gravity="center"
@@ -65,14 +66,14 @@
         android:layout_height="40dp"
         android:layout_marginTop="20dp"
         android:layout_width="140dp"
-        android:background="@drawable/home_bg_menu"
         android:layout_gravity="center_horizontal">
 
         <TextView
             android:layout_width="150dp"
             android:layout_height="35dp"
             android:text="GIỚI THIỆU"
-            android:textColor="@android:color/holo_blue_dark"
+            android:background="@drawable/light_blue"
+            android:textColor="@android:color/white"
             android:textSize="8pt"
             android:gravity="center"
             />
@@ -84,14 +85,14 @@
         android:layout_height="40dp"
         android:layout_marginTop="20dp"
         android:layout_width="140dp"
-        android:background="@drawable/home_bg_menu"
         android:layout_gravity="center_horizontal">
 
         <TextView
             android:layout_width="150dp"
             android:layout_height="35dp"
             android:text="CÀI ĐẶT"
-            android:textColor="@android:color/holo_blue_dark"
+            android:background="@drawable/light_blue"
+            android:textColor="@android:color/white"
             android:textSize="8pt"
             android:gravity="center"
             />
@@ -100,8 +101,7 @@
             android:layout_width="134dp"
             android:layout_height="35dp"
             android:layout_marginLeft="3dp"
-            android:layout_marginTop="3dp"
-            android:background="@drawable/home_guess"/>
+            android:layout_marginTop="3dp"/>
 
     </LinearLayout>
     <!-- end menu-->
@@ -119,5 +119,5 @@
             android:layout_gravity="right"/>
 
 
-   </LinearLayout>
-</LinearLayout><!-- From: file:/D:/THESIS/Tools/MyProject/trunk/src/EnglishForKid/app/src/main/res/layout/home_activity.xml -->
+    </LinearLayout>
+</LinearLayout><!-- From: file:/D:/THESIS/Tools/NewProject/trunk/src/EnglishForKid/app/src/main/res/layout/home_activity.xml -->

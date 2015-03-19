@@ -16,4 +16,4 @@
         android:layout_height="wrap_content"
         android:text="Close"
         android:id="@+id/btn_close"/>
-</LinearLayout><!-- From: file:/D:/THESIS/Tools/MyProject/trunk/src/EnglishForKid/app/src/main/res/layout/popup_layout.xml -->
+</LinearLayout><!-- From: file:/D:/THESIS/Tools/NewProject/trunk/src/EnglishForKid/app/src/main/res/layout/popup_layout.xml -->
